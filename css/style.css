@@ -1,0 +1,109 @@
+body{
+  /* clouds */
+  /* background-image: url("https://static.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg"); */
+
+  /* rain */
+  /* background-image: url("https://static.pexels.com/photos/237637/pexels-photo-237637.jpeg"); */
+
+  /* snow */
+  /* background-image: url("https://static.pexels.com/photos/65911/winter-nature-season-trees-65911.jpeg"); */
+
+  /* clear */
+  /* background-image: url("https://static.pexels.com/photos/337282/pexels-photo-337282.jpeg"); */
+
+  /* thunder strom */
+  /* background-image: url("https://static.pexels.com/photos/273280/pexels-photo-273280.jpeg"); */
+
+  /* drizzle  */
+  /* background-image: url("https://static.pexels.com/photos/764767/pexels-photo-764767.jpeg"); */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Patrick Hand', cursive;
+  /* background-position: center bottom; */
+}
+.cont{
+  width: 30%;
+  height: 400px;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 40px;
+  background-color: #161616;
+  color: white;
+  opacity: 0.8;
+
+}
+.r1{
+  display: inline;
+}
+#name {
+  padding-top: 20px;
+}
+#temp{
+  font-size: 50px;
+  padding-top: 20px;
+  /* position: relative; */
+  /* padding-right: 40px; */
+}
+#weather{
+  font-size: 25px;
+  padding-top: 20px;
+}
+.btn1{
+  background: none;
+  border: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+}
+.sp{
+  padding: 30px 20px 10px 5px;
+  position: relative;
+}
+.c{
+  position: absolute;
+  top:4px;
+  right: -9px;
+}
+.f{
+  position: absolute;
+  bottom: 4px;
+  right: -9px;
+}
+#windAndhumidity{
+  padding-top: 20px;
+  font-size: 17px;
+}
+.cborder{
+  border:1px solid white;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+.fborder{
+  border:1px solid white;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+@media(max-width: 992px) {
+  .cont{
+    width: 50%;
+  }
+}
+@media(max-width: 450px) {
+  .cont{
+    width: 80%;
+  }
+}
+@media(max-width: 300px) {
+  .cont{
+    width: 90%;
+  }
+}
